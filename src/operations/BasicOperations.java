@@ -11,12 +11,10 @@ public class BasicOperations {
         return 0.0;
     }
 
-    //TODO Implement divide operation
+    //FIXME Implement error division by zero
     public Double divide(Double a, Double b){
-        return 0.0;
+        return a/b;
     }
-
-    //TODO Implement multiply operation
 
     public Double multiply(Double a, Double b){
         return a * b;
