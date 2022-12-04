@@ -1,14 +1,13 @@
 package operations;
 
 public class BasicOperations {
-    //TODO Implement sum operation
+
     public Double sum(Double a, Double b){
-        return 0.0;
+        return a+b;
     }
 
-    //TODO Implement subtract operation
     public Double subtract(Double a, Double b){
-        return 0.0;
+        return a-b;
     }
 
     //FIXME Implement error division by zero
