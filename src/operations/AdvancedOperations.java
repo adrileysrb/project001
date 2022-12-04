@@ -12,8 +12,12 @@ public class AdvancedOperations {
         return 0.0;
     }
 
-    //TODO Implement potentiation operation
-    public Double potentiation (){
-        return 0.0;
+    public Double potentiation (Double a, Double b){
+
+        for (int i = 0; i < b; i++) {
+            a *= a;
+        }
+
+        return  a;
     }
 }
