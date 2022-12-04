@@ -2,14 +2,8 @@ package operations;
 
 public class AdvancedOperations {
 
-    //TODO Implement divide operation
-    public Double divide (){
-       return 0.0;
-    }
-
-    //TODO Implement rooting operation
-    public Double rooting (){
-        return 0.0;
+    public Double restDivision (Double a, Double b){
+        return a%b;
     }
 
     public Double potentiation (Double a, Double b){
@@ -17,7 +11,6 @@ public class AdvancedOperations {
         for (int i = 0; i < b; i++) {
             a *= a;
         }
-
         return  a;
     }
 }
